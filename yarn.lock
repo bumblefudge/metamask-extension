@@ -4731,16 +4731,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/ppom-validator@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "@metamask/ppom-validator@npm:0.10.0"
+"@metamask/ppom-validator@MetaMask/ppom-validator#olu/send-ppom-on-more-networks":
+  version: 0.11.0
+  resolution: "@metamask/ppom-validator@https://github.com/MetaMask/ppom-validator.git#commit=474771344a7e658f19fec4194323f627c8f71f0a"
   dependencies:
     "@metamask/base-controller": "npm:^3.0.0"
     "@metamask/controller-utils": "npm:^4.0.0"
     await-semaphore: "npm:^0.1.3"
     elliptic: "npm:^6.5.4"
     json-rpc-random-id: "npm:^1.0.1"
-  checksum: fae284ecfbb186b6e434c084bbe41e8968370f8f974bc611d91f70a30494be2b0ce2019c27ab713be7d90c99bfaa2e26587a886ca84e7885b31660c0988ca05a
+  checksum: 2fc7bc6cc344e70f28b168210d7e72509ec3026a4ff27a4f378e8f70e111ff717b263abc855f25be8d90ac9e455e8f322d4fe8fb2efd98a6b8eb760160c581b1
   languageName: node
   linkType: hard
 
@@ -24674,7 +24674,7 @@ __metadata:
     "@metamask/phishing-warning": "npm:^3.0.0"
     "@metamask/polling-controller": "npm:^1.0.1"
     "@metamask/post-message-stream": "npm:^7.0.0"
-    "@metamask/ppom-validator": "npm:^0.10.0"
+    "@metamask/ppom-validator": "MetaMask/ppom-validator#olu/send-ppom-on-more-networks"
     "@metamask/providers": "npm:^14.0.2"
     "@metamask/queued-request-controller": "npm:^0.1.3"
     "@metamask/rate-limit-controller": "npm:^3.0.0"
