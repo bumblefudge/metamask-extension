@@ -4322,7 +4322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/ethjs@npm:^0.5.1":
+"@metamask/ethjs@npm:^0.5.0, @metamask/ethjs@npm:^0.5.1":
   version: 0.5.1
   resolution: "@metamask/ethjs@npm:0.5.1"
   dependencies:
@@ -16849,12 +16849,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eth-method-registry@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "eth-method-registry@npm:2.0.0"
+"eth-method-registry@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "eth-method-registry@npm:3.0.0"
   dependencies:
-    ethjs: "npm:^0.4.0"
-  checksum: 4e804030f36a0282a071ef138287f9c0a15ecbbc24ddc3ea01e29aafcae278c8798c91615d42cc7bbe3ecfb38d6457174ed1a3d10ce31f40c44093a9395b50a8
+    "@metamask/ethjs": "npm:^0.5.0"
+  checksum: 3511f923f269c0e6027b08e282dede7794239ed771b0265f2b857d1147869709e2985911b8edcf938441f6190befd191f47d346b2b2eee7ff0667fecbef7e014
   languageName: node
   linkType: hard
 
@@ -24897,7 +24897,7 @@ __metadata:
     eth-ens-namehash: "npm:^2.0.8"
     eth-json-rpc-filters: "npm:^6.0.0"
     eth-lattice-keyring: "npm:^0.12.4"
-    eth-method-registry: "npm:^2.0.0"
+    eth-method-registry: "npm:^3.0.0"
     eth-rpc-errors: "npm:^4.0.2"
     eth-sig-util: "npm:^3.0.0"
     ethereum-ens-network-map: "npm:^1.0.2"
