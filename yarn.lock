@@ -5254,9 +5254,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/transaction-controller@npm:^19.0.0":
-  version: 19.0.0
-  resolution: "@metamask/transaction-controller@npm:19.0.0"
+"@metamask/transaction-controller@npm:^19.0.1":
+  version: 19.0.1
+  resolution: "@metamask/transaction-controller@npm:19.0.1"
   dependencies:
     "@ethereumjs/common": "npm:^3.2.0"
     "@ethereumjs/tx": "npm:^4.2.0"
@@ -5271,7 +5271,7 @@ __metadata:
     "@metamask/rpc-errors": "npm:^6.1.0"
     "@metamask/utils": "npm:^8.2.0"
     async-mutex: "npm:^0.2.6"
-    eth-method-registry: "npm:1.1.0"
+    eth-method-registry: "npm:^3.0.0"
     ethereumjs-util: "npm:^7.0.10"
     fast-json-patch: "npm:^3.1.1"
     lodash: "npm:^4.17.21"
@@ -5282,7 +5282,7 @@ __metadata:
     "@metamask/gas-fee-controller": ^12.0.0
     "@metamask/network-controller": ^17.1.0
     babel-runtime: ^6.26.0
-  checksum: ee6a34b0d03d0592533a8bc3e80846c6bbf98a44227c47294109212aa7c350e2d07a5dce8bd81140638c3f9a42093f4500895aa937e16bed668927889915549a
+  checksum: 07b5b765bb010d65888acbae9802f015b983323f079b711006a3cb2ec2476cd4135e65ab0a45c9b091bac9c229b3b7888ebbe591d62cd3b9b8e6b38e4cefd5c6
   languageName: node
   linkType: hard
 
@@ -16840,15 +16840,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eth-method-registry@npm:1.1.0":
-  version: 1.1.0
-  resolution: "eth-method-registry@npm:1.1.0"
-  dependencies:
-    ethjs: "npm:^0.3.0"
-  checksum: 3529e06e67740572d5771761d425faf5197695df06035e3c085213e45492eb1fad71f26df36c733769f4ceaa3d0f3d7e91065d42806f800e8ddc4b44b232c614
-  languageName: node
-  linkType: hard
-
 "eth-method-registry@npm:^3.0.0":
   version: 3.0.0
   resolution: "eth-method-registry@npm:3.0.0"
@@ -17081,18 +17072,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ethjs-contract@npm:0.2.2":
-  version: 0.2.2
-  resolution: "ethjs-contract@npm:0.2.2"
-  dependencies:
-    ethjs-abi: "npm:0.2.0"
-    ethjs-filter: "npm:0.1.8"
-    ethjs-util: "npm:0.1.3"
-    js-sha3: "npm:0.5.5"
-  checksum: 1ba42cce3d09656e1de09ab2fb5eee1a5e55a1debff0d3b9a19289b90cdee65ff49a87fa63e36e3c765aa8f6b6896141f6414dd94a5c98ccb0e30d2a611d77e7
-  languageName: node
-  linkType: hard
-
 "ethjs-contract@npm:0.2.3, ethjs-contract@npm:^0.2.3":
   version: 0.2.3
   resolution: "ethjs-contract@npm:0.2.3"
@@ -17133,17 +17112,6 @@ __metadata:
   dependencies:
     xhr2: "npm:0.1.3"
   checksum: 79a14233e1ed67a2ac902105303a60d41d9e799f984c4933495a78918bb6a6c53de6bed189c5755bae860d4ef98d89b3c9614719be7a27b62ad714b997257616
-  languageName: node
-  linkType: hard
-
-"ethjs-query@npm:0.3.7":
-  version: 0.3.7
-  resolution: "ethjs-query@npm:0.3.7"
-  dependencies:
-    ethjs-format: "npm:0.2.7"
-    ethjs-rpc: "npm:0.2.0"
-    promise-to-callback: "npm:^1.0.0"
-  checksum: ed5619ee223629c471b8930b56a8189ab73bde3492ad5968e3051fc931a3cb8027ba49a08086164b1d15400b239adb1bacc58a168891e6d05dffe9d4e5518573
   languageName: node
   linkType: hard
 
@@ -17202,24 +17170,6 @@ __metadata:
     is-hex-prefixed: "npm:1.0.0"
     strip-hex-prefix: "npm:1.0.0"
   checksum: 02e1d37f743a78742651a11be35461dfe8ed653f113d630435aada8036e1e199691c2cfffbbf1e800bfdeb14bb34c7ed69fab5d3c727058c1daf3effc6bf6f69
-  languageName: node
-  linkType: hard
-
-"ethjs@npm:^0.3.0":
-  version: 0.3.9
-  resolution: "ethjs@npm:0.3.9"
-  dependencies:
-    bn.js: "npm:4.11.6"
-    ethjs-abi: "npm:0.2.1"
-    ethjs-contract: "npm:0.2.2"
-    ethjs-filter: "npm:0.1.8"
-    ethjs-provider-http: "npm:0.1.6"
-    ethjs-query: "npm:0.3.7"
-    ethjs-unit: "npm:0.1.6"
-    ethjs-util: "npm:0.1.3"
-    js-sha3: "npm:0.5.5"
-    number-to-bn: "npm:1.7.0"
-  checksum: 4f88c2187c4a28f54aa32bc278fa4d81b468da0dcd01f547c6748de3a22f4c3e1a9fd69af4b7a06095e141f08c153dc6a40152b5226352672fa0e483cacfb9cb
   languageName: node
   linkType: hard
 
@@ -24778,7 +24728,7 @@ __metadata:
     "@metamask/snaps-sdk": "npm:^1.3.2"
     "@metamask/snaps-utils": "npm:^5.1.2"
     "@metamask/test-dapp": "npm:^7.3.1"
-    "@metamask/transaction-controller": "npm:^19.0.0"
+    "@metamask/transaction-controller": "npm:^19.0.1"
     "@metamask/utils": "npm:^8.2.1"
     "@ngraveio/bc-ur": "npm:^1.1.6"
     "@playwright/test": "npm:^1.39.0"

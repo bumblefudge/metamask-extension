@@ -2432,10 +2432,10 @@
         "@metamask/metamask-eth-abis": true,
         "@metamask/providers>@metamask/rpc-errors": true,
         "@metamask/transaction-controller>@metamask/controller-utils": true,
-        "@metamask/transaction-controller>eth-method-registry": true,
         "@metamask/transaction-controller>nonce-tracker": true,
         "@metamask/utils": true,
         "eth-json-rpc-filters>async-mutex": true,
+        "eth-method-registry": true,
         "ethereumjs-util": true,
         "fast-json-patch": true,
         "lodash": true,
@@ -2458,59 +2458,6 @@
         "eslint>fast-deep-equal": true,
         "eth-ens-namehash": true,
         "ethereumjs-util": true
-      }
-    },
-    "@metamask/transaction-controller>eth-method-registry": {
-      "packages": {
-        "@metamask/transaction-controller>eth-method-registry>ethjs": true
-      }
-    },
-    "@metamask/transaction-controller>eth-method-registry>ethjs": {
-      "globals": {
-        "clearInterval": true,
-        "setInterval": true
-      },
-      "packages": {
-        "@metamask/controller-utils>ethjs-unit": true,
-        "@metamask/eth-token-tracker>ethjs>ethjs-filter": true,
-        "@metamask/eth-token-tracker>ethjs>ethjs-provider-http": true,
-        "@metamask/eth-token-tracker>ethjs>ethjs-util": true,
-        "@metamask/ethjs>ethjs-abi": true,
-        "@metamask/ethjs>ethjs-abi>js-sha3": true,
-        "@metamask/ethjs>number-to-bn": true,
-        "@metamask/transaction-controller>eth-method-registry>ethjs>ethjs-contract": true,
-        "@metamask/transaction-controller>eth-method-registry>ethjs>ethjs-query": true,
-        "bn.js": true,
-        "browserify>buffer": true
-      }
-    },
-    "@metamask/transaction-controller>eth-method-registry>ethjs>ethjs-contract": {
-      "packages": {
-        "@metamask/eth-token-tracker>ethjs>ethjs-filter": true,
-        "@metamask/eth-token-tracker>ethjs>ethjs-util": true,
-        "@metamask/ethjs-query>babel-runtime": true,
-        "@metamask/ethjs>ethjs-abi>js-sha3": true,
-        "@metamask/transaction-controller>eth-method-registry>ethjs>ethjs-contract>ethjs-abi": true,
-        "promise-to-callback": true
-      }
-    },
-    "@metamask/transaction-controller>eth-method-registry>ethjs>ethjs-contract>ethjs-abi": {
-      "packages": {
-        "@metamask/ethjs>ethjs-abi>js-sha3": true,
-        "@metamask/ethjs>number-to-bn": true,
-        "bn.js": true,
-        "browserify>buffer": true
-      }
-    },
-    "@metamask/transaction-controller>eth-method-registry>ethjs>ethjs-query": {
-      "globals": {
-        "console": true
-      },
-      "packages": {
-        "@metamask/eth-token-tracker>ethjs-query>ethjs-format": true,
-        "@metamask/eth-token-tracker>ethjs-query>ethjs-rpc": true,
-        "@metamask/ethjs-query>babel-runtime": true,
-        "promise-to-callback": true
       }
     },
     "@metamask/transaction-controller>nonce-tracker": {
